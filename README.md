@@ -5,6 +5,9 @@ Simple application shows the usage of throttle middleware to block the heavy loa
 Gem used:
 
 gem 'active_model_serializers'
+
 gem 'rack-throttle'
+
+
 gem 'redis'
 
