@@ -1,0 +1,15 @@
+https://medium.com/@pebneter/fast-and-simple-rate-limiting-with-ruby-on-rails-and-redis-68e76ba38ca4
+https://vitobotta.com/2019/09/24/protecting-rails-app-from-small-scripted-attacks/
+https://sourcey.com/articles/building-the-perfect-rails-api
+
+bundle install
+rails db:create
+
+    Created database 'db/development.sqlite3'
+    Created database 'db/test.sqlite3'
+
+rails g scaffold user name email
+rails g model User name email
+rails db migrate
+
+
